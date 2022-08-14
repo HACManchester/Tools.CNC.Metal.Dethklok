@@ -1,0 +1,206 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 871c95df-b2cc-41d7-a41d-a6d0a1b71fd9)
+
+  (paper "A4")
+
+  (title_block
+    (title "DethKlock CNC Wiring")
+    (comment 1 "Uses Duet WIFI Board")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Dedathklok CNC Wiring Overview" (at 95.25 26.67 0)
+    (effects (font (size 5.02 5.02)) (justify left bottom))
+    (uuid 2efd1c2e-568b-4388-b08a-0c6277bd134c)
+  )
+
+  (sheet (at 172.72 53.34) (size 29.21 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8b08ebe7-e09d-457a-aa78-952c998c42c6)
+    (property "Sheet name" "Stepper Motors" (id 0) (at 172.72 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "StepperMotors.kicad_sch" (id 1) (at 172.72 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 135.89 91.44) (size 29.21 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97865327-4c20-4c16-b1f2-0777c49da80a)
+    (property "Sheet name" "VFD IO" (id 0) (at 135.89 90.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "VFD_IO.kicad_sch" (id 1) (at 135.89 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 99.06 91.44) (size 29.21 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ca479b37-0dfd-4d9d-b8df-1a3910328813)
+    (property "Sheet name" "Expansion" (id 0) (at 99.06 90.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Expansion.kicad_sch" (id 1) (at 99.06 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 99.06 53.34) (size 29.21 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f143c4b2-3dfd-4efd-9b46-7c557be7a359)
+    (property "Sheet name" "Power Supply" (id 0) (at 99.06 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Psu.kicad_sch" (id 1) (at 99.06 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 135.89 53.34) (size 29.21 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f80dd2ad-5540-4a1b-8f82-60bced0be6cb)
+    (property "Sheet name" "Panel Due" (id 0) (at 135.89 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "PanelDue.kicad_sch" (id 1) (at 135.89 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359" (page "2"))
+    (path "/f80dd2ad-5540-4a1b-8f82-60bced0be6cb" (page "3"))
+    (path "/8b08ebe7-e09d-457a-aa78-952c998c42c6" (page "4"))
+    (path "/ca479b37-0dfd-4d9d-b8df-1a3910328813" (page "5"))
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a" (page "6"))
+  )
+
+  (symbol_instances
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/0bb00f8a-dcb9-45d5-b937-49973243ca8c"
+      (reference "#PWR?") (unit 1) (value "NEUT") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/0e05ba5f-313c-4837-b2c2-cba2d74e86b6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/10d2cf44-9c9b-4bc2-8ef8-6638253188a5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/15731f95-68bd-4c47-8820-2e385808ba0d"
+      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/380e7aba-a5ad-4575-85c6-c5becb73cdbc"
+      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/42233ef9-3d3b-4b74-8223-37fbfb432af0"
+      (reference "#PWR?") (unit 1) (value "NEUT") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/5a946898-2b15-4d2a-ae2b-63a2792123e0"
+      (reference "#PWR?") (unit 1) (value "NEUT") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/69ce75c8-cd1c-4268-92a9-6b29a599bbd2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/7596245f-627a-4614-a80d-9a65878cc00c"
+      (reference "#PWR?") (unit 1) (value "LINE") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/9b5311a0-153a-45cd-bd58-bb242e392250"
+      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/a29f0244-b778-45db-89f2-8187fb80f3e2"
+      (reference "#PWR?") (unit 1) (value "LINE") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/b29ede8f-3bef-44c5-a003-db7ab431e2fc"
+      (reference "#PWR?") (unit 1) (value "LINE") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/cf4ff8f7-87a9-4a48-8bd6-8b56be260577"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/fade792e-6d67-42e9-a8d1-6225026edcd7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/2892339c-6ba1-4d68-8e2b-47f264bfa16a"
+      (reference "FB?") (unit 1) (value "FerriteBead") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/9e91ba95-3a7e-4103-a938-db4bdd675264"
+      (reference "FB?") (unit 1) (value "FerriteBead") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/37a462bd-6616-4409-a82f-ef504c85d6bc"
+      (reference "FL?") (unit 1) (value "Filter") (footprint "")
+    )
+    (path "/8b08ebe7-e09d-457a-aa78-952c998c42c6/7adb55c3-a3f1-4928-9757-07ae5fed9a21"
+      (reference "J?") (unit 1) (value "X Axis") (footprint "")
+    )
+    (path "/8b08ebe7-e09d-457a-aa78-952c998c42c6/7e76036c-2108-4b64-8c5a-75871bef98d2"
+      (reference "J?") (unit 1) (value "A Axis") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/918ba9b1-285a-4a9f-889a-39463c025865"
+      (reference "J?") (unit 1) (value "Spindle") (footprint "")
+    )
+    (path "/8b08ebe7-e09d-457a-aa78-952c998c42c6/941b1293-3fd7-4bc1-baf9-4e27220fc06b"
+      (reference "J?") (unit 1) (value "Z Axis") (footprint "")
+    )
+    (path "/8b08ebe7-e09d-457a-aa78-952c998c42c6/dbc30532-c18f-4199-81c8-ed8ac4ffe771"
+      (reference "J?") (unit 1) (value "Y Axis") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/ea0d8281-3e88-4ca6-ac76-f67b287a3ba6"
+      (reference "M?") (unit 1) (value "Fan") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/10ca9a3e-41da-42f6-b546-4d2c06d0d6b7"
+      (reference "P?") (unit 1) (value "Conn_WallPlug_Earth") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/29affa2d-3591-46d3-9343-a72815b5f95a"
+      (reference "SW?") (unit 1) (value "SW_SPST") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/84572180-72b3-49d2-b10d-2ae69baf0da7"
+      (reference "SW?") (unit 1) (value "ESTOP") (footprint "")
+    )
+    (path "/8b08ebe7-e09d-457a-aa78-952c998c42c6/4cc6ac05-66ac-4b47-b86e-718b649d6cf7"
+      (reference "U1") (unit 1) (value "DuetWifi") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/a0c1e1e5-5ee0-4ecf-9e55-f3a84637bb22"
+      (reference "U1") (unit 1) (value "VFD_800W") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/d175e028-35b0-44e6-a538-c219a6fd8bfd"
+      (reference "U1") (unit 2) (value "DuetWifi") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/61324e1b-5928-468d-9f8f-e43794447d43"
+      (reference "U1") (unit 3) (value "DuetWifi") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/48a59764-2969-4aad-bef8-e2ee71ae41e2"
+      (reference "U1") (unit 4) (value "DuetWifi") (footprint "")
+    )
+    (path "/f80dd2ad-5540-4a1b-8f82-60bced0be6cb/5a48035e-f83c-4d0e-9539-415d59a165b9"
+      (reference "U1") (unit 5) (value "DuetWifi") (footprint "")
+    )
+    (path "/ca479b37-0dfd-4d9d-b8df-1a3910328813/708abf77-57d6-4d89-b520-3d4ddbad8968"
+      (reference "U1") (unit 6) (value "DuetWifi") (footprint "")
+    )
+    (path "/ca479b37-0dfd-4d9d-b8df-1a3910328813/511c1395-4652-4445-b49d-0e9a95bf860d"
+      (reference "U1") (unit 7) (value "DuetWifi") (footprint "")
+    )
+    (path "/f80dd2ad-5540-4a1b-8f82-60bced0be6cb/9c6975cd-a48c-4430-8f60-de2bbf20a6e0"
+      (reference "U1") (unit 8) (value "DuetWifi") (footprint "")
+    )
+    (path "/ca479b37-0dfd-4d9d-b8df-1a3910328813/75e91851-37d1-4c89-bf13-2344356f2ed9"
+      (reference "U1") (unit 9) (value "DuetWifi") (footprint "")
+    )
+    (path "/f143c4b2-3dfd-4efd-9b46-7c557be7a359/33e1bdb4-6cca-4bf7-98e4-cf502470f7a7"
+      (reference "U3") (unit 1) (value "24VDC_PSU") (footprint "")
+    )
+    (path "/97865327-4c20-4c16-b1f2-0777c49da80a/8ded51e6-c4b2-46d1-937f-9285c771c9ba"
+      (reference "U?") (unit 1) (value "10V_VFD") (footprint "")
+    )
+  )
+)
