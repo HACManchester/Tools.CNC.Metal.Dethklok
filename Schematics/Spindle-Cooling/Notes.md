@@ -22,7 +22,12 @@
     Existing pump
 
 
+  * https://www.youtube.com/watch?v=jbHsgNFUEAc
+  * https://www.amazon.co.uk/Motor-Torque-Double-Bearing-Spindle/dp/B07QD4PT55?th=1
 
+
+  * https://www.youtube.com/watch?v=GBv80BgfTBc
+  * https://www.youtube.com/watch?v=BL9AxCI-fnE
 
   * https://www.amazon.co.uk/ASHATA-Exchanger-Radiator-Aluminium-Computer/dp/B07HK58S9W/
 
