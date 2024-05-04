@@ -1,0 +1,3 @@
+; Set the Zero point for Cordinate System 8
+G10 L20 P8 X0 Y0 Z0
+G10 L20 P8
