@@ -37,3 +37,10 @@ I think to try out backlash or orthogonal compensation better we need to mill ou
 
   * More clamps / support brackets are needed, initially make some out of wood held down with m6 bolts
 
+### Spanners
+
+Need
+
+  * 10mm spanner for bolts
+  * 13mm spanner open ended
+  * 17mm ring spanner
