@@ -29,9 +29,10 @@ I think to try out backlash or orthogonal compensation better we need to mill ou
   * Piping is required however and wiring
 
   * The pipe to the spindle I believe is 8mm outer dia, 5mm inner dia
-  * Pump is 6.3 inner, 8.9 outer - but has a screw thread that can be used instead
+  * Pump is 6.3 inner, 8.9 outer - but has a screw thread that can be used instead I think 12mm
   * Radiator is 6.13 inner, 9.7 outer
 
+There's a better radiator with 12mm inner dia screw thread
 
 ### Support Brackets
 
